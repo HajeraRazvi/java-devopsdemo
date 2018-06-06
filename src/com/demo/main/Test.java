@@ -23,6 +23,8 @@ public class Test {
 		ProductService service = new ProductService();
 		ArrayList<Product> list = service.getAllProducts();
 		list.forEach(System.out::println);
+		
+		System.out.println(list.size());
 	}
 
 }
